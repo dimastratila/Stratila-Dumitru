@@ -1,5 +1,8 @@
 package md.tekwill.arrays;
-import java.util.Arrays;
+
+
+/** 3. Creati o metoda care primeste un arr de int, si returneaza ul alt array doar cu elementele pare din primul array
+ De ex. {1,2,3,4,5,6}, va returna {2,4,6} */
 
 public class Punctul3 {
     public static int[] Array(int[] arr){
