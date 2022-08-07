@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class Punctul3 {
     public static int[] Array(int[] arr){
 
-        int[] arr2 = new int[arr.length/2];
+        int[] arr2 = new int[arr.length];
         int j = 0;
         for (int i=0;i<arr.length;i++) {
 
@@ -16,8 +16,10 @@ public class Punctul3 {
             }
         }
 
-for (int i=0;i<arr2.length;i++)
-    System.out.println(arr2[i]);
+for (int i=0;i<arr2.length;i++){
+    if (arr2[i]==0)
+        continue;
+    System.out.println(arr2[i]);}
 
 
         return arr2;
